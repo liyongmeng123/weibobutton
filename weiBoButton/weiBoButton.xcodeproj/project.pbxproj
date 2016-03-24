@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E81F882A1CA3D50C009B1F05 /* Menultem.m in Sources */ = {isa = PBXBuildFile; fileRef = E81F88291CA3D50C009B1F05 /* Menultem.m */; };
+		E860EDDF1CA3DEE100DBDA2C /* menButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E860EDDE1CA3DEE100DBDA2C /* menButton.m */; };
+		E863F9F31CA28ACA00CC5405 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E863F9F21CA28ACA00CC5405 /* main.m */; };
+		E863F9F61CA28ACA00CC5405 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E863F9F51CA28ACA00CC5405 /* AppDelegate.m */; };
+		E863F9F91CA28ACA00CC5405 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E863F9F81CA28ACA00CC5405 /* ViewController.m */; };
+		E863F9FC1CA28ACA00CC5405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E863F9FA1CA28ACA00CC5405 /* Main.storyboard */; };
+		E863F9FE1CA28ACA00CC5405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E863F9FD1CA28ACA00CC5405 /* Assets.xcassets */; };
+		E863FA011CA28ACA00CC5405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E863F9FF1CA28ACA00CC5405 /* LaunchScreen.storyboard */; };
+		E863FA0C1CA28ACA00CC5405 /* weiBoButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E863FA0B1CA28ACA00CC5405 /* weiBoButtonTests.m */; };
+		E863FA171CA28ACA00CC5405 /* weiBoButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E863FA161CA28ACA00CC5405 /* weiBoButtonUITests.m */; };
+		E863FA261CA28ADE00CC5405 /* weiBoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E863FA251CA28ADE00CC5405 /* weiBoViewController.m */; };
+		E863FA291CA28B4B00CC5405 /* weiBoView.m in Sources */ = {isa = PBXBuildFile; fileRef = E863FA281CA28B4B00CC5405 /* weiBoView.m */; };
+		E863FA5D1CA29ED300CC5405 /* doubi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E863FA3D1CA29ED300CC5405 /* doubi.jpg */; };
+		E863FA5E1CA29ED300CC5405 /* tabbar_compose_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA3E1CA29ED300CC5405 /* tabbar_compose_camera@2x.png */; };
+		E863FA5F1CA29ED300CC5405 /* tabbar_compose_camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA3F1CA29ED300CC5405 /* tabbar_compose_camera@3x.png */; };
+		E863FA601CA29ED300CC5405 /* tabbar_compose_idea@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA401CA29ED300CC5405 /* tabbar_compose_idea@2x.png */; };
+		E863FA611CA29ED300CC5405 /* tabbar_compose_idea@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA411CA29ED300CC5405 /* tabbar_compose_idea@3x.png */; };
+		E863FA621CA29ED300CC5405 /* tabbar_compose_lbs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA421CA29ED300CC5405 /* tabbar_compose_lbs@2x.png */; };
+		E863FA631CA29ED300CC5405 /* tabbar_compose_lbs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA431CA29ED300CC5405 /* tabbar_compose_lbs@3x.png */; };
+		E863FA641CA29ED300CC5405 /* tabbar_compose_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA441CA29ED300CC5405 /* tabbar_compose_more@2x.png */; };
+		E863FA651CA29ED300CC5405 /* tabbar_compose_more@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA451CA29ED300CC5405 /* tabbar_compose_more@3x.png */; };
+		E863FA661CA29ED300CC5405 /* tabbar_compose_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA461CA29ED300CC5405 /* tabbar_compose_photo@2x.png */; };
+		E863FA671CA29ED300CC5405 /* tabbar_compose_photo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA471CA29ED300CC5405 /* tabbar_compose_photo@3x.png */; };
+		E863FA681CA29ED300CC5405 /* tabbar_compose_review@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA481CA29ED300CC5405 /* tabbar_compose_review@2x.png */; };
+		E863FA691CA29ED300CC5405 /* tabbar_compose_review@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA491CA29ED300CC5405 /* tabbar_compose_review@3x.png */; };
+		E863FA6A1CA29ED300CC5405 /* tabbar_compose_background_icon_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA4B1CA29ED300CC5405 /* tabbar_compose_background_icon_close@2x.png */; };
+		E863FA6B1CA29ED300CC5405 /* tabbar_compose_background_icon_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA4C1CA29ED300CC5405 /* tabbar_compose_background_icon_close@3x.png */; };
+		E863FA6C1CA29ED300CC5405 /* tabbar_compose_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA4D1CA29ED300CC5405 /* tabbar_compose_button@2x.png */; };
+		E863FA6D1CA29ED300CC5405 /* tabbar_compose_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA4E1CA29ED300CC5405 /* tabbar_compose_button@3x.png */; };
+		E863FA6E1CA29ED300CC5405 /* tabbar_compose_button_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA4F1CA29ED300CC5405 /* tabbar_compose_button_highlighted@2x.png */; };
+		E863FA6F1CA29ED300CC5405 /* tabbar_compose_button_highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA501CA29ED300CC5405 /* tabbar_compose_button_highlighted@3x.png */; };
+		E863FA701CA29ED300CC5405 /* tabbar_compose_icon_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA511CA29ED300CC5405 /* tabbar_compose_icon_add@2x.png */; };
+		E863FA711CA29ED300CC5405 /* tabbar_compose_icon_add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA521CA29ED300CC5405 /* tabbar_compose_icon_add@3x.png */; };
+		E863FA721CA29ED300CC5405 /* tabbar_compose_icon_add_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA531CA29ED300CC5405 /* tabbar_compose_icon_add_highlighted@2x.png */; };
+		E863FA731CA29ED300CC5405 /* tabbar_compose_icon_add_highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA541CA29ED300CC5405 /* tabbar_compose_icon_add_highlighted@3x.png */; };
+		E863FA741CA29ED300CC5405 /* ad_background-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA561CA29ED300CC5405 /* ad_background-568h@2x.png */; };
+		E863FA751CA29ED300CC5405 /* ad_background-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA571CA29ED300CC5405 /* ad_background-667h@2x.png */; };
+		E863FA761CA29ED300CC5405 /* ad_background-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA581CA29ED300CC5405 /* ad_background-736h@3x.png */; };
+		E863FA771CA29ED300CC5405 /* ad_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA591CA29ED300CC5405 /* ad_background@2x.png */; };
+		E863FA781CA29ED300CC5405 /* ad_background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA5A1CA29ED300CC5405 /* ad_background@3x.png */; };
+		E863FA791CA29ED300CC5405 /* compose_slogan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA5B1CA29ED300CC5405 /* compose_slogan@2x.png */; };
+		E863FA7A1CA29ED300CC5405 /* compose_slogan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E863FA5C1CA29ED300CC5405 /* compose_slogan@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E863FA081CA28ACA00CC5405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E863F9E61CA28ACA00CC5405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E863F9ED1CA28ACA00CC5405;
+			remoteInfo = weiBoButton;
+		};
+		E863FA131CA28ACA00CC5405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E863F9E61CA28ACA00CC5405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E863F9ED1CA28ACA00CC5405;
+			remoteInfo = weiBoButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E81F88281CA3D50C009B1F05 /* Menultem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Menultem.h; path = weibo/Menultem.h; sourceTree = "<group>"; };
+		E81F88291CA3D50C009B1F05 /* Menultem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Menultem.m; path = weibo/Menultem.m; sourceTree = "<group>"; };
+		E860EDDD1CA3DEE100DBDA2C /* menButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = menButton.h; path = weibo/menButton.h; sourceTree = "<group>"; };
+		E860EDDE1CA3DEE100DBDA2C /* menButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = menButton.m; path = weibo/menButton.m; sourceTree = "<group>"; };
+		E863F9EE1CA28ACA00CC5405 /* weiBoButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weiBoButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E863F9F21CA28ACA00CC5405 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E863F9F41CA28ACA00CC5405 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E863F9F51CA28ACA00CC5405 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E863F9F71CA28ACA00CC5405 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E863F9F81CA28ACA00CC5405 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E863F9FB1CA28ACA00CC5405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E863F9FD1CA28ACA00CC5405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E863FA001CA28ACA00CC5405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E863FA021CA28ACA00CC5405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E863FA071CA28ACA00CC5405 /* weiBoButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiBoButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E863FA0B1CA28ACA00CC5405 /* weiBoButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiBoButtonTests.m; sourceTree = "<group>"; };
+		E863FA0D1CA28ACA00CC5405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E863FA121CA28ACA00CC5405 /* weiBoButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiBoButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E863FA161CA28ACA00CC5405 /* weiBoButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiBoButtonUITests.m; sourceTree = "<group>"; };
+		E863FA181CA28ACA00CC5405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E863FA241CA28ADE00CC5405 /* weiBoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weiBoViewController.h; sourceTree = "<group>"; };
+		E863FA251CA28ADE00CC5405 /* weiBoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weiBoViewController.m; sourceTree = "<group>"; };
+		E863FA271CA28B4B00CC5405 /* weiBoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weiBoView.h; sourceTree = "<group>"; };
+		E863FA281CA28B4B00CC5405 /* weiBoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weiBoView.m; sourceTree = "<group>"; };
+		E863FA3D1CA29ED300CC5405 /* doubi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doubi.jpg; sourceTree = "<group>"; };
+		E863FA3E1CA29ED300CC5405 /* tabbar_compose_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_camera@2x.png"; sourceTree = "<group>"; };
+		E863FA3F1CA29ED300CC5405 /* tabbar_compose_camera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_camera@3x.png"; sourceTree = "<group>"; };
+		E863FA401CA29ED300CC5405 /* tabbar_compose_idea@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_idea@2x.png"; sourceTree = "<group>"; };
+		E863FA411CA29ED300CC5405 /* tabbar_compose_idea@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_idea@3x.png"; sourceTree = "<group>"; };
+		E863FA421CA29ED300CC5405 /* tabbar_compose_lbs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_lbs@2x.png"; sourceTree = "<group>"; };
+		E863FA431CA29ED300CC5405 /* tabbar_compose_lbs@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_lbs@3x.png"; sourceTree = "<group>"; };
+		E863FA441CA29ED300CC5405 /* tabbar_compose_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_more@2x.png"; sourceTree = "<group>"; };
+		E863FA451CA29ED300CC5405 /* tabbar_compose_more@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_more@3x.png"; sourceTree = "<group>"; };
+		E863FA461CA29ED300CC5405 /* tabbar_compose_photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_photo@2x.png"; sourceTree = "<group>"; };
+		E863FA471CA29ED300CC5405 /* tabbar_compose_photo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_photo@3x.png"; sourceTree = "<group>"; };
+		E863FA481CA29ED300CC5405 /* tabbar_compose_review@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_review@2x.png"; sourceTree = "<group>"; };
+		E863FA491CA29ED300CC5405 /* tabbar_compose_review@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_review@3x.png"; sourceTree = "<group>"; };
+		E863FA4B1CA29ED300CC5405 /* tabbar_compose_background_icon_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_background_icon_close@2x.png"; sourceTree = "<group>"; };
+		E863FA4C1CA29ED300CC5405 /* tabbar_compose_background_icon_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_background_icon_close@3x.png"; sourceTree = "<group>"; };
+		E863FA4D1CA29ED300CC5405 /* tabbar_compose_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_button@2x.png"; sourceTree = "<group>"; };
+		E863FA4E1CA29ED300CC5405 /* tabbar_compose_button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_button@3x.png"; sourceTree = "<group>"; };
+		E863FA4F1CA29ED300CC5405 /* tabbar_compose_button_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_button_highlighted@2x.png"; sourceTree = "<group>"; };
+		E863FA501CA29ED300CC5405 /* tabbar_compose_button_highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_button_highlighted@3x.png"; sourceTree = "<group>"; };
+		E863FA511CA29ED300CC5405 /* tabbar_compose_icon_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_icon_add@2x.png"; sourceTree = "<group>"; };
+		E863FA521CA29ED300CC5405 /* tabbar_compose_icon_add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_icon_add@3x.png"; sourceTree = "<group>"; };
+		E863FA531CA29ED300CC5405 /* tabbar_compose_icon_add_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_icon_add_highlighted@2x.png"; sourceTree = "<group>"; };
+		E863FA541CA29ED300CC5405 /* tabbar_compose_icon_add_highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_icon_add_highlighted@3x.png"; sourceTree = "<group>"; };
+		E863FA561CA29ED300CC5405 /* ad_background-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad_background-568h@2x.png"; sourceTree = "<group>"; };
+		E863FA571CA29ED300CC5405 /* ad_background-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad_background-667h@2x.png"; sourceTree = "<group>"; };
+		E863FA581CA29ED300CC5405 /* ad_background-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad_background-736h@3x.png"; sourceTree = "<group>"; };
+		E863FA591CA29ED300CC5405 /* ad_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad_background@2x.png"; sourceTree = "<group>"; };
+		E863FA5A1CA29ED300CC5405 /* ad_background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad_background@3x.png"; sourceTree = "<group>"; };
+		E863FA5B1CA29ED300CC5405 /* compose_slogan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_slogan@2x.png"; sourceTree = "<group>"; };
+		E863FA5C1CA29ED300CC5405 /* compose_slogan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_slogan@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E863F9EB1CA28ACA00CC5405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E863FA041CA28ACA00CC5405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E863FA0F1CA28ACA00CC5405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E863F9E51CA28ACA00CC5405 = {
+			isa = PBXGroup;
+			children = (
+				E863F9F01CA28ACA00CC5405 /* weiBoButton */,
+				E863FA0A1CA28ACA00CC5405 /* weiBoButtonTests */,
+				E863FA151CA28ACA00CC5405 /* weiBoButtonUITests */,
+				E863F9EF1CA28ACA00CC5405 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E863F9EF1CA28ACA00CC5405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E863F9EE1CA28ACA00CC5405 /* weiBoButton.app */,
+				E863FA071CA28ACA00CC5405 /* weiBoButtonTests.xctest */,
+				E863FA121CA28ACA00CC5405 /* weiBoButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E863F9F01CA28ACA00CC5405 /* weiBoButton */ = {
+			isa = PBXGroup;
+			children = (
+				E863FA3C1CA29ED300CC5405 /* weibo */,
+				E863FA271CA28B4B00CC5405 /* weiBoView.h */,
+				E863FA281CA28B4B00CC5405 /* weiBoView.m */,
+				E863F9F41CA28ACA00CC5405 /* AppDelegate.h */,
+				E863F9F51CA28ACA00CC5405 /* AppDelegate.m */,
+				E863F9F71CA28ACA00CC5405 /* ViewController.h */,
+				E863F9F81CA28ACA00CC5405 /* ViewController.m */,
+				E863F9FA1CA28ACA00CC5405 /* Main.storyboard */,
+				E81F88281CA3D50C009B1F05 /* Menultem.h */,
+				E81F88291CA3D50C009B1F05 /* Menultem.m */,
+				E860EDDD1CA3DEE100DBDA2C /* menButton.h */,
+				E860EDDE1CA3DEE100DBDA2C /* menButton.m */,
+				E863F9FD1CA28ACA00CC5405 /* Assets.xcassets */,
+				E863F9FF1CA28ACA00CC5405 /* LaunchScreen.storyboard */,
+				E863FA021CA28ACA00CC5405 /* Info.plist */,
+				E863F9F11CA28ACA00CC5405 /* Supporting Files */,
+				E863FA241CA28ADE00CC5405 /* weiBoViewController.h */,
+				E863FA251CA28ADE00CC5405 /* weiBoViewController.m */,
+			);
+			path = weiBoButton;
+			sourceTree = "<group>";
+		};
+		E863F9F11CA28ACA00CC5405 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E863F9F21CA28ACA00CC5405 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E863FA0A1CA28ACA00CC5405 /* weiBoButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				E863FA0B1CA28ACA00CC5405 /* weiBoButtonTests.m */,
+				E863FA0D1CA28ACA00CC5405 /* Info.plist */,
+			);
+			path = weiBoButtonTests;
+			sourceTree = "<group>";
+		};
+		E863FA151CA28ACA00CC5405 /* weiBoButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E863FA161CA28ACA00CC5405 /* weiBoButtonUITests.m */,
+				E863FA181CA28ACA00CC5405 /* Info.plist */,
+			);
+			path = weiBoButtonUITests;
+			sourceTree = "<group>";
+		};
+		E863FA3C1CA29ED300CC5405 /* weibo */ = {
+			isa = PBXGroup;
+			children = (
+				E863FA3D1CA29ED300CC5405 /* doubi.jpg */,
+				E863FA3E1CA29ED300CC5405 /* tabbar_compose_camera@2x.png */,
+				E863FA3F1CA29ED300CC5405 /* tabbar_compose_camera@3x.png */,
+				E863FA401CA29ED300CC5405 /* tabbar_compose_idea@2x.png */,
+				E863FA411CA29ED300CC5405 /* tabbar_compose_idea@3x.png */,
+				E863FA421CA29ED300CC5405 /* tabbar_compose_lbs@2x.png */,
+				E863FA431CA29ED300CC5405 /* tabbar_compose_lbs@3x.png */,
+				E863FA441CA29ED300CC5405 /* tabbar_compose_more@2x.png */,
+				E863FA451CA29ED300CC5405 /* tabbar_compose_more@3x.png */,
+				E863FA461CA29ED300CC5405 /* tabbar_compose_photo@2x.png */,
+				E863FA471CA29ED300CC5405 /* tabbar_compose_photo@3x.png */,
+				E863FA481CA29ED300CC5405 /* tabbar_compose_review@2x.png */,
+				E863FA491CA29ED300CC5405 /* tabbar_compose_review@3x.png */,
+				E863FA4A1CA29ED300CC5405 /* 发送界面 */,
+				E863FA551CA29ED300CC5405 /* 欢迎界面 */,
+			);
+			path = weibo;
+			sourceTree = "<group>";
+		};
+		E863FA4A1CA29ED300CC5405 /* 发送界面 */ = {
+			isa = PBXGroup;
+			children = (
+				E863FA4B1CA29ED300CC5405 /* tabbar_compose_background_icon_close@2x.png */,
+				E863FA4C1CA29ED300CC5405 /* tabbar_compose_background_icon_close@3x.png */,
+				E863FA4D1CA29ED300CC5405 /* tabbar_compose_button@2x.png */,
+				E863FA4E1CA29ED300CC5405 /* tabbar_compose_button@3x.png */,
+				E863FA4F1CA29ED300CC5405 /* tabbar_compose_button_highlighted@2x.png */,
+				E863FA501CA29ED300CC5405 /* tabbar_compose_button_highlighted@3x.png */,
+				E863FA511CA29ED300CC5405 /* tabbar_compose_icon_add@2x.png */,
+				E863FA521CA29ED300CC5405 /* tabbar_compose_icon_add@3x.png */,
+				E863FA531CA29ED300CC5405 /* tabbar_compose_icon_add_highlighted@2x.png */,
+				E863FA541CA29ED300CC5405 /* tabbar_compose_icon_add_highlighted@3x.png */,
+			);
+			path = "发送界面";
+			sourceTree = "<group>";
+		};
+		E863FA551CA29ED300CC5405 /* 欢迎界面 */ = {
+			isa = PBXGroup;
+			children = (
+				E863FA561CA29ED300CC5405 /* ad_background-568h@2x.png */,
+				E863FA571CA29ED300CC5405 /* ad_background-667h@2x.png */,
+				E863FA581CA29ED300CC5405 /* ad_background-736h@3x.png */,
+				E863FA591CA29ED300CC5405 /* ad_background@2x.png */,
+				E863FA5A1CA29ED300CC5405 /* ad_background@3x.png */,
+				E863FA5B1CA29ED300CC5405 /* compose_slogan@2x.png */,
+				E863FA5C1CA29ED300CC5405 /* compose_slogan@3x.png */,
+			);
+			path = "欢迎界面";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E863F9ED1CA28ACA00CC5405 /* weiBoButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E863FA1B1CA28ACA00CC5405 /* Build configuration list for PBXNativeTarget "weiBoButton" */;
+			buildPhases = (
+				E863F9EA1CA28ACA00CC5405 /* Sources */,
+				E863F9EB1CA28ACA00CC5405 /* Frameworks */,
+				E863F9EC1CA28ACA00CC5405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weiBoButton;
+			productName = weiBoButton;
+			productReference = E863F9EE1CA28ACA00CC5405 /* weiBoButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E863FA061CA28ACA00CC5405 /* weiBoButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E863FA1E1CA28ACA00CC5405 /* Build configuration list for PBXNativeTarget "weiBoButtonTests" */;
+			buildPhases = (
+				E863FA031CA28ACA00CC5405 /* Sources */,
+				E863FA041CA28ACA00CC5405 /* Frameworks */,
+				E863FA051CA28ACA00CC5405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E863FA091CA28ACA00CC5405 /* PBXTargetDependency */,
+			);
+			name = weiBoButtonTests;
+			productName = weiBoButtonTests;
+			productReference = E863FA071CA28ACA00CC5405 /* weiBoButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E863FA111CA28ACA00CC5405 /* weiBoButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E863FA211CA28ACA00CC5405 /* Build configuration list for PBXNativeTarget "weiBoButtonUITests" */;
+			buildPhases = (
+				E863FA0E1CA28ACA00CC5405 /* Sources */,
+				E863FA0F1CA28ACA00CC5405 /* Frameworks */,
+				E863FA101CA28ACA00CC5405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E863FA141CA28ACA00CC5405 /* PBXTargetDependency */,
+			);
+			name = weiBoButtonUITests;
+			productName = weiBoButtonUITests;
+			productReference = E863FA121CA28ACA00CC5405 /* weiBoButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E863F9E61CA28ACA00CC5405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "李勇猛";
+				TargetAttributes = {
+					E863F9ED1CA28ACA00CC5405 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E863FA061CA28ACA00CC5405 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E863F9ED1CA28ACA00CC5405;
+					};
+					E863FA111CA28ACA00CC5405 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E863F9ED1CA28ACA00CC5405;
+					};
+				};
+			};
+			buildConfigurationList = E863F9E91CA28ACA00CC5405 /* Build configuration list for PBXProject "weiBoButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E863F9E51CA28ACA00CC5405;
+			productRefGroup = E863F9EF1CA28ACA00CC5405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E863F9ED1CA28ACA00CC5405 /* weiBoButton */,
+				E863FA061CA28ACA00CC5405 /* weiBoButtonTests */,
+				E863FA111CA28ACA00CC5405 /* weiBoButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E863F9EC1CA28ACA00CC5405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E863FA5E1CA29ED300CC5405 /* tabbar_compose_camera@2x.png in Resources */,
+				E863FA6C1CA29ED300CC5405 /* tabbar_compose_button@2x.png in Resources */,
+				E863FA661CA29ED300CC5405 /* tabbar_compose_photo@2x.png in Resources */,
+				E863FA5F1CA29ED300CC5405 /* tabbar_compose_camera@3x.png in Resources */,
+				E863FA011CA28ACA00CC5405 /* LaunchScreen.storyboard in Resources */,
+				E863FA611CA29ED300CC5405 /* tabbar_compose_idea@3x.png in Resources */,
+				E863FA681CA29ED300CC5405 /* tabbar_compose_review@2x.png in Resources */,
+				E863F9FE1CA28ACA00CC5405 /* Assets.xcassets in Resources */,
+				E863FA761CA29ED300CC5405 /* ad_background-736h@3x.png in Resources */,
+				E863FA601CA29ED300CC5405 /* tabbar_compose_idea@2x.png in Resources */,
+				E863FA6B1CA29ED300CC5405 /* tabbar_compose_background_icon_close@3x.png in Resources */,
+				E863FA791CA29ED300CC5405 /* compose_slogan@2x.png in Resources */,
+				E863FA751CA29ED300CC5405 /* ad_background-667h@2x.png in Resources */,
+				E863FA701CA29ED300CC5405 /* tabbar_compose_icon_add@2x.png in Resources */,
+				E863FA671CA29ED300CC5405 /* tabbar_compose_photo@3x.png in Resources */,
+				E863FA741CA29ED300CC5405 /* ad_background-568h@2x.png in Resources */,
+				E863FA7A1CA29ED300CC5405 /* compose_slogan@3x.png in Resources */,
+				E863FA631CA29ED300CC5405 /* tabbar_compose_lbs@3x.png in Resources */,
+				E863FA6E1CA29ED300CC5405 /* tabbar_compose_button_highlighted@2x.png in Resources */,
+				E863FA651CA29ED300CC5405 /* tabbar_compose_more@3x.png in Resources */,
+				E863FA6A1CA29ED300CC5405 /* tabbar_compose_background_icon_close@2x.png in Resources */,
+				E863FA781CA29ED300CC5405 /* ad_background@3x.png in Resources */,
+				E863FA6D1CA29ED300CC5405 /* tabbar_compose_button@3x.png in Resources */,
+				E863FA731CA29ED300CC5405 /* tabbar_compose_icon_add_highlighted@3x.png in Resources */,
+				E863FA721CA29ED300CC5405 /* tabbar_compose_icon_add_highlighted@2x.png in Resources */,
+				E863FA641CA29ED300CC5405 /* tabbar_compose_more@2x.png in Resources */,
+				E863FA771CA29ED300CC5405 /* ad_background@2x.png in Resources */,
+				E863FA691CA29ED300CC5405 /* tabbar_compose_review@3x.png in Resources */,
+				E863FA621CA29ED300CC5405 /* tabbar_compose_lbs@2x.png in Resources */,
+				E863F9FC1CA28ACA00CC5405 /* Main.storyboard in Resources */,
+				E863FA711CA29ED300CC5405 /* tabbar_compose_icon_add@3x.png in Resources */,
+				E863FA6F1CA29ED300CC5405 /* tabbar_compose_button_highlighted@3x.png in Resources */,
+				E863FA5D1CA29ED300CC5405 /* doubi.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E863FA051CA28ACA00CC5405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E863FA101CA28ACA00CC5405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E863F9EA1CA28ACA00CC5405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E863FA291CA28B4B00CC5405 /* weiBoView.m in Sources */,
+				E863F9F91CA28ACA00CC5405 /* ViewController.m in Sources */,
+				E81F882A1CA3D50C009B1F05 /* Menultem.m in Sources */,
+				E863FA261CA28ADE00CC5405 /* weiBoViewController.m in Sources */,
+				E863F9F61CA28ACA00CC5405 /* AppDelegate.m in Sources */,
+				E863F9F31CA28ACA00CC5405 /* main.m in Sources */,
+				E860EDDF1CA3DEE100DBDA2C /* menButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E863FA031CA28ACA00CC5405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E863FA0C1CA28ACA00CC5405 /* weiBoButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E863FA0E1CA28ACA00CC5405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E863FA171CA28ACA00CC5405 /* weiBoButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E863FA091CA28ACA00CC5405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E863F9ED1CA28ACA00CC5405 /* weiBoButton */;
+			targetProxy = E863FA081CA28ACA00CC5405 /* PBXContainerItemProxy */;
+		};
+		E863FA141CA28ACA00CC5405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E863F9ED1CA28ACA00CC5405 /* weiBoButton */;
+			targetProxy = E863FA131CA28ACA00CC5405 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E863F9FA1CA28ACA00CC5405 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E863F9FB1CA28ACA00CC5405 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E863F9FF1CA28ACA00CC5405 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E863FA001CA28ACA00CC5405 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E863FA191CA28ACA00CC5405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E863FA1A1CA28ACA00CC5405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E863FA1C1CA28ACA00CC5405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weiBoButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = game.weiBoButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E863FA1D1CA28ACA00CC5405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weiBoButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = game.weiBoButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E863FA1F1CA28ACA00CC5405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = weiBoButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = game.weiBoButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weiBoButton.app/weiBoButton";
+			};
+			name = Debug;
+		};
+		E863FA201CA28ACA00CC5405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = weiBoButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = game.weiBoButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weiBoButton.app/weiBoButton";
+			};
+			name = Release;
+		};
+		E863FA221CA28ACA00CC5405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = weiBoButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = game.weiBoButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = weiBoButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E863FA231CA28ACA00CC5405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = weiBoButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = game.weiBoButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = weiBoButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E863F9E91CA28ACA00CC5405 /* Build configuration list for PBXProject "weiBoButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E863FA191CA28ACA00CC5405 /* Debug */,
+				E863FA1A1CA28ACA00CC5405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E863FA1B1CA28ACA00CC5405 /* Build configuration list for PBXNativeTarget "weiBoButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E863FA1C1CA28ACA00CC5405 /* Debug */,
+				E863FA1D1CA28ACA00CC5405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E863FA1E1CA28ACA00CC5405 /* Build configuration list for PBXNativeTarget "weiBoButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E863FA1F1CA28ACA00CC5405 /* Debug */,
+				E863FA201CA28ACA00CC5405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E863FA211CA28ACA00CC5405 /* Build configuration list for PBXNativeTarget "weiBoButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E863FA221CA28ACA00CC5405 /* Debug */,
+				E863FA231CA28ACA00CC5405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E863F9E61CA28ACA00CC5405 /* Project object */;
+}
